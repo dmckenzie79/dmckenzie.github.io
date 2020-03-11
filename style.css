@@ -1,9 +1,28 @@
-body{
+body {
     font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;  
 }
 
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translateX(-50%);
+    
 }
+
+.intro {
+    background: url(images/wallpaper5.jpg) top;
+}
+
+h1{
+    font-size: 4em;
+    padding-top: 10%;
+    color: white;   
+}
+
+.jumbotron {
+    background: url(images/wallpaper4.jpg);
+    height: 100vh;
+}
+
+
