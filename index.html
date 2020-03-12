@@ -5,64 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meet Diandra McKenzie</title>
     
-    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:700&display=swap" rel="stylesheet"> 
 
-  <!-- Stylesheet - Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
   integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
   <link rel="stylesheet" href="style.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  
-    
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
 </head>
+
+
 <body>
   <div>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center fixed-top mb-5">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center fixed-top">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="/gallery">Gallery</a>
+            <a class="nav-link" href="#Gallery">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about">About Me</a>
+            <a class="nav-link" href="#About">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <a class="nav-link" href="#Contact">Contact</a>
           </li>
- ss       </ul>
+        </ul>
       </nav>
     </div> 
 
 
-    <div class="container-fluid intro mt-5" style="height: 500px;">
+    <div class="container-fluid intro">
+      <!--<img src="images/leaf.png" class="p-5"alt="moving leaf"> -->
       <h1>"When Art Meets Technology"</h1>
     </div>  
-  
-<div class="jumbotron"></div>
-    <div class="container gallery">
-      <h2 class="mt-5">Gallery</h2> 
-      <img src="images/bio_prototype.png" alt="picture link to biosite prototype">
-      <img src="images/Biosite.jpg" alt="picture link to biosite">
-      <img src="images/web-231.jpg" alt="picture link to web-231 repository">
+
+    <div class="container-fluid gallery" id="Gallery">
+      <h2>Gallery</h2> 
+      <a href="biosite.html"><img src="images/bio_prototype.png" alt="picture link to biosite prototype"></a>
+      <a href="https://dmckenzie79.github.io/bioSite/"><img src="images/Biosite.jpg" alt="picture link to biosite"></a>
+      <a href="https://github.com/dmckenzie79/web-231"><img src="images/web-231.jpg" alt="picture link to web-231 repository"></a>
       <br>
       <br>
-      <img src="images/port_proto.png" alt="picture link to portfolio prototype">
-      <img src="images/web-330.png" alt="picture link to web-330 repository">
+      <a href="images/mckenzie_assignment_2.4.jpg"><img src="images/port_proto.png" alt="picture link to portfolio prototype"></a>
+      <a href="https://github.com/dmckenzie79/web-330"><img src="images/web-330.png" alt="picture link to web-330 repository"></a>
     </div>
-    
-    <div class="container" id="bio">
+
+    <div class="container mt-2" id="About">
       <h3>Diandra McKenzie</h3>
-      <h4>Wife, Mother, Web Developer</h4>
-      <h5>Artist</h5>
+      <h3>Wife, Mother, Artist</h3>
+      
       <img src="images/mckenzie_bio_image.jpg" alt="picture of Diandra McKenzie">
       <img src="images/mckenzie_bio_image.jpg" alt="picture of Diandra McKenzie">
       <img src="images/mckenzie_bio_image.jpg" alt="picture of Diandra McKenzie">
+
+      <div class="frame">
+      <img src="images/artistry frame.png" alt="picture frame">
+      <div class="text"><h3>Web Developer</h3>
+      </div>
     </div>
-  </div>
+    </div>
+
 </body>
+
 <footer>
-  <h6>Contact:</h6>
+  <div id="Contact">
+      <h3>Contact:</h3>
+      <br>
+      <h3 class="email">diandramckenzie79@gmail.com</h3>
+  </div>
 </footer>
+
 </html>
