@@ -13,12 +13,20 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
+<script>
+  $(document).ready(function() {
+    $('#formButton').click(function() {
+      $('#contact-form').slideToggle(1000);
+    });
+  });
+  
+  </script>
 </head>
 
 
 <body>
   <div>
-    <nav class="navbar navbar-expand-md bg-light navbar-light justify-content-center fixed-top">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center fixed-top">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#Gallery">Gallery</a>
@@ -42,7 +50,7 @@
     <div class="container-fluid gallery" id="Gallery">
       <h2>Gallery</h2> 
       <p>Web development Projects</p>
-      <a href="biosite.html"><img src="images/bio_prototype.png" alt="picture link to biosite prototype"></a>
+      <a href="images/McKenzie Bio Site.pdf"><img src="images/bio_prototype.png" alt="picture link to biosite prototype"></a>
       <a href="https://dmckenzie79.github.io/bioSite/"><img src="images/Biosite.jpg" alt="picture link to biosite"></a>
       <a href="https://github.com/dmckenzie79/web-231"><img src="images/web-231.jpg" alt="picture link to web-231 repository"></a>
       <br>
@@ -69,14 +77,43 @@
     </div>
     </div>
 
+<div class="mb-5" id="Contact">
+
+    <button type="button" id="formButton" class="btn btn-default mt-5">Contact</button>
+  
+     <br>
+
+  <div class="row justify-content-center">
+
+    <form id="contact-form" class="form-container col-lg-6" method="post">
+
+     <h4 id="title">Contact for all inquires</h4>
+
+     <input name="name" type="text" class="form-control" placeholder="Name" required><br>
+
+     <input name="email" type="email" class="form-control" placeholder="Email" required><br>
+    
+     <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+     <button type="button" id="submit" class="form-control submit" value="Send Message">Submit</button>
+
+    </form>
+      
+  </div>
+
+
+    <h3 class="email"><a href='mailto:diandramckenzie79@gmail.com'>diandramckenzie79@gmail.com</a></h3>
+
+     
+</div>
+
 </body>
 
 <footer>
-  <div id="Contact">
-      <h3>Contact:</h3>
-      <br>
-      <h3 class="email"><a href='mailto:diandramckenzie79@gmail.com'>diandramckenzie79@gmail.com</a></h3>
-  </div>
-</footer>
 
+<div class="thankyou">
+  <h4>Thanks for stopping by!</h4>
+</div>
+
+</footer>
 </html>

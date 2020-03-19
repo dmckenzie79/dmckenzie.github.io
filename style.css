@@ -30,7 +30,7 @@ h1 {
 }
 
 h3.email{
-    padding-bottom: 10%;
+    padding-bottom: 0%;
     font-style: italic;
     text-shadow: 4px 4px 4px #000000;   
 }
@@ -83,12 +83,18 @@ a{
 
 h4{
     font-size: 2.5em;
+    padding-bottom: 10%;
 
 }
 
 span{
     color: lightgray;
     font-size: 2em;
-    text-shadow: 4px 4px 4px #000000;  
+    text-shadow: 4px 4px 4px #000000; 
 
+}
+
+.form-container{
+    padding: 10%;
+    display: none;
 }
