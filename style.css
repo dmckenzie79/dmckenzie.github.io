@@ -29,11 +29,6 @@ h1 {
     padding-bottom: 5%;
 }
 
-h3.email{
-    padding-bottom: 0%;
-    font-style: italic;
-    text-shadow: 4px 4px 4px #000000;   
-}
 
 h2 {
     font-size: 4em;
@@ -44,10 +39,6 @@ h2 {
 p{
     color: darkgoldenrod;
     font-size: 2em;
-}
-.about {
-
-    padding-top: 20%;
 }
 
 h3 {
@@ -88,15 +79,6 @@ img{
 
 }
 
-a{
-    color: white;
-}
-
-a:hover{
-    color: rgba(201, 70, 70);
-}
-
-
 span{
     color: lightgray;
     font-size: 2em;
@@ -111,10 +93,23 @@ p.about{
     display: none; 
 }
 
-
 .form-container{
     padding: 5%;
     display: none;
+}
+
+h6.email{
+    padding-bottom: 0%;
+    font-style: italic;
+    text-shadow: 4px 4px 4px #000000;   
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgba(201, 70, 70);
 }
 
 footer{
