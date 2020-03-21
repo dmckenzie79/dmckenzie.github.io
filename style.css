@@ -50,11 +50,22 @@ p{
     padding-top: 20%;
 }
 
-h3, h4 {
-    font-size: 3em;
+h3 {
+    font-size: 2.8em;
+}
+
+h3, h4, h5, h6 {
     padding-top: 5%;
     color: white;  
     text-shadow: 4px 4px 4px #000000; 
+}
+
+h4, h6{
+    font-size: 2.5em;
+}
+
+h5 {
+    font-size: 2em;
 }
 
 img{
@@ -81,20 +92,31 @@ a{
     color: white;
 }
 
-h4{
-    font-size: 2.5em;
-    padding-bottom: 10%;
-
+a:hover{
+    color: rgba(201, 70, 70);
 }
+
 
 span{
     color: lightgray;
     font-size: 2em;
-    text-shadow: 4px 4px 4px #000000; 
-
+    text-shadow: 4px 4px 4px #000000;
 }
 
+p.about{
+    margin-top: 5%;
+    padding: 0;
+    background-color: rgba(201, 70, 70, 0.15);
+    color: white;
+    display: none; 
+}
+
+
 .form-container{
-    padding: 10%;
+    padding: 5%;
     display: none;
+}
+
+footer{
+    padding-bottom: 5%;
 }

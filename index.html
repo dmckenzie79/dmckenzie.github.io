@@ -16,20 +16,16 @@
     
     <link href="https://fonts.googleapis.com/css?family=Sunflower:700&display=swap" rel="stylesheet"> 
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
+    
+    <link rel="stylesheet" href="style.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
-<script>
-  $(document).ready(function() {
-    $('#formButton').click(function() {
-      $('#contact-form').slideToggle(1000);
-    });
-  });
-  
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+    <script src="js/buttons.js"></script>
 </head>
 
 
@@ -68,25 +64,45 @@
       <a href="https://github.com/dmckenzie79/web-330"><img src="images/web-330.png" alt="picture link to web-330 repository"></a>
     </div>
 
-    <div class="container mt-2" id="About">
-      <h3>Diandra McKenzie</h3>
-      <h4>Wife, Mother, Artist</h4>
+    <div id="About" class="container-fluid mt-4">
       
-      <img src="images/kirk&dee.png" id="personal" alt="picture of Kirk and Diandra McKenzie">
-      <img src="images/Antonio_Amya.jpg" id="personal" alt="picture of Antonio and Amya McKenzie">
-      <img src="images/sketch.png" alt="picture of Diandra McKenzie">
+        <h3>Diandra McKenzie</h3>
+        <h4>Wife, Mother, Artist</h4>
+        
+        <img src="images/kirk&dee.png" id="personal" alt="picture of Kirk and Diandra McKenzie">
+        <img src="images/Antonio_Amya.jpg" id="personal" alt="picture of Antonio and Amya McKenzie">
+        <img src="images/sketch.png" alt="picture of Diandra McKenzie">
 
-      <div class="frame">
-      <img src="images/artistry frame.png" alt="picture frame">
-      <div class="text"><h3>Web Developer</h3>
-      </div>
+        <div class="frame">
+          <img src="images/artistry frame.png" alt="picture frame">
+          <div class="text">
+            <h5>Web Developer</h5>
+          </div>
+        </div>  
     </div>
     <div>
       <span>Aspiring Full-Stack Web Developer that truly loves mixing art with technology</span>
     </div>
+    <div class="container col-md-10">
+      <button type="button" id="aboutButton" class="btn btn-default mt-5">More About Me</button>
+     <br>
+     <p id="about-Me" class="about"> Diandra McKenzie is ready to take the leap and pursue 
+      a new career in the tech field. She has always had a love for art and playing around 
+      on computers, so she decided to go back to school to purse a bachelor’s degree that 
+      combines her two passions. She has entry-level experience in Full-Stack Web Development, 
+      with a concentration in the MEAN Stack. After she completes the matriculation requirements
+      for her online degree at Bellevue University, she plans on making a career move into the
+      Web Development field. In her spare time, Diandra enjoys spending time with her husband 
+      and children, cooking delicious and nutritious meals and seeing art that inspires her.
+      <br />
+      One of her personal mantas is, 
+      <br />
+      “Never stop learning, because life never stops teaching.” 
+     </p> 
+    </div>
     </div>
 
-<div class="mb-5" id="Contact">
+<div id="Contact">
 
     <button type="button" id="formButton" class="btn btn-default mt-5">Contact</button>
   
@@ -111,7 +127,7 @@
   </div>
 
 
-    <h3 class="email"><a href='mailto:diandramckenzie79@gmail.com'>diandramckenzie79@gmail.com</a></h3>
+    <h6 class="email"><a href='mailto:diandramckenzie79@gmail.com'>diandramckenzie79@gmail.com</a></h6>
 
      
 </div>
@@ -121,7 +137,7 @@
 <footer>
 
 <div class="thankyou">
-  <h4>Thanks for stopping by!</h4>
+  <h6>Thanks for stopping by!</h6>
 </div>
 
 </footer>
