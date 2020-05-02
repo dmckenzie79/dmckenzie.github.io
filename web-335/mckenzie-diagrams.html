@@ -1,7 +1,7 @@
 <!--
 ============================================
 ; Title: mckenzie-diagrams.html
-; Author: Diandra McKEnzie
+; Author: Diandra McKenzie
 ; Date: 2 May 2020
 ; Description: HTTP for Diagrams
 ;===========================================
@@ -46,6 +46,8 @@
       </nav>
     </div> 
 
+
+    <!--Image Gallery-->
     <div class="diagram-card">
         <br />
         <br />
@@ -60,14 +62,12 @@
     </div> 
     
     <script>
-$(document).ready(function() {
-    $('.thumbnail a').click(function(e){
-        e.preventDefault();
-        $('.imgBox img').attr("src", $(this).attr('href'));
-    });
-    });
-
-
+        $(document).ready(function() {
+            $('.thumbnail a').click(function(e){
+                e.preventDefault();
+                $('.imgBox img').attr("src", $(this).attr('href'));
+            });
+        });
     </script>
 </body>
 </html>
