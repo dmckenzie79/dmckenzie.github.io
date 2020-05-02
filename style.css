@@ -74,7 +74,7 @@ img{
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 30%; 
+    top: 25%; 
     font-size: 2em;
 
 }
@@ -92,6 +92,14 @@ p.about{
     color: white;
     display: none; 
 }
+
+p.bio{
+    margin-top: 5%;
+    padding: 0;
+    background-color: rgba(201, 70, 70, 0.15);
+    color: white;
+}
+
 
 .form-container{
     padding: 5%;
