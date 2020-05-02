@@ -1,9 +1,9 @@
 <!--
 ============================================
-; Title: mckenzie-rest.html
+; Title: mckenzie-diagrams.html
 ; Author: Diandra McKEnzie
 ; Date: 2 May 2020
-; Description: HTTP for Presentations
+; Description: HTTP for Diagrams
 ;===========================================
 -->
 
@@ -12,14 +12,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Presentations</title>
+    <title>Diagrams</title>
 
     <link href="https://fonts.googleapis.com/css?family=Sunflower:700&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
     integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
     
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="diagrams.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -37,7 +37,7 @@
             <a class="nav-link" href="../about.html">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../web-335/mckenzie-diagrams.html">Diagrams</a>
+            <a class="nav-link" href="../web-420/mckenzie-rest.html">Presentations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../contact.html">Contact</a>
@@ -46,15 +46,28 @@
       </nav>
     </div> 
 
-    <div>
+    <div class="diagram-card">
         <br />
         <br />
-        <h3>Presentations</h3>
+        <h3>Diagrams</h3>
         <br />
-        <video width="900" height="690" controls autoplay reload="none">
-            <source src="../restful-api-presentations/mckenzie_presentation_1.3.mp4" type="video/mp4">
-            Your browser does not support the video tag.</video>
-    </div>
+            <div class="imgBox"><img src="../nosql-data-diagrams/mckenzie_assignment_1.4_ORD.png"></div>
+                <ul class="thumbnail" id="thumbnail">
+                    <li><a href="../nosql-data-diagrams/mckenzie_assignment_1.4_ORD.png" target="imgBox"><img src="../nosql-data-diagrams/mckenzie_assignment_1.4_ORD.png" width="200 px" height="250 px"></a></li> 
+                    <br />       
+                    <li><a href="../nosql-data-diagrams/mckenzie_assignment_1.4_NoSQL.png" target="imgBox"><img src="../nosql-data-diagrams/mckenzie_assignment_1.4_NoSQL.jpg" width="200px" height="250 px"></a></li>
+                </ul>
+    </div> 
+    
+    <script>
+$(document).ready(function() {
+    $('.thumbnail a').click(function(e){
+        e.preventDefault();
+        $('.imgBox img').attr("src", $(this).attr('href'));
+    });
+    });
 
+
+    </script>
 </body>
 </html>
