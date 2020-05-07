@@ -122,19 +122,6 @@ a:hover{
     color: rgba(201, 70, 70);
 }
 
-.imgBox{
-    width: 600px;
-    margin: 50px auto 20px
-   
-}
-
-.imgBox img{
-    width: 100%;
-    border: 2px solid #000000;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, .75);
-    text-align: left;
-}
-
 footer{
     padding-bottom: 5%;
 }
