@@ -1,5 +1,6 @@
 body {
     font-family: 'Sunflower', sans-serif;
+    text-align: center;
     background: url(../images/wallpaper4.jpg); 
     margin: 0;
     padding: 0;
@@ -10,18 +11,44 @@ body {
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 10%;
-    
+    overflow: hidden; 
 }
 
 nav{
-    font-size: 1.5em;
+    font-size: 1.6em;
+}
+
+.navbar a:hover, .subnav:hover {
+background-color: rgb(243, 239, 239);
+}
+
+.subnav-content {
+display: none;
+position: absolute;
+background-color: rgb(243, 239, 239);
+z-index: 1;   
+}
+    
+.subnav-content a {
+color: rgb(92, 2, 2);
+text-decoration: none;
+padding: 10px;
+}
+
+.subnav-content a:hover {
+background-color: #eee;
+color: black;
+}
+
+.subnav:hover .subnav-content {
+display: block;
 }
 
 h3 {
     font-size: 2.8em;
     padding-top: 5%;
-    color: rgb(247, 28, 28);  
-    text-shadow: 2px 2px 2px #000000; 
+    color: rgb(167, 2, 2);  
+    text-shadow: 1px 1px 1px #000000; 
     text-align: center;
 }
 

@@ -11,13 +11,41 @@ body {
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 10%;
-    
+    overflow: hidden; 
 }
 
 nav{
     font-size: 1.5em;
 }
 
+
+.navbar a:hover, .subnav:hover {
+    background-color: rgb(243, 239, 239);
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(243, 239, 239);
+    z-index: 1;   
+}
+  
+.subnav-content a {
+    float: left;
+    color: rgb(92, 2, 2);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+  
 h1 {
     font-size: 4em;
     padding-top: 20%;
