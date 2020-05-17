@@ -19,14 +19,14 @@ nav{
 }
 
 .navbar a:hover, .subnav:hover {
-background-color: rgb(243, 239, 239);
+    background-color: rgb(243, 239, 239);
 }
 
 .subnav-content {
-display: none;
-position: absolute;
-background-color: rgb(243, 239, 239);
-z-index: 1;   
+    display: none;
+    position: absolute;
+    background-color: rgb(243, 239, 239);
+    z-index: 1;   
 }
     
 .subnav-content a {
@@ -92,5 +92,10 @@ li img{
 }
 
 .desc{
+    text-align: center;
+}
+
+.section-1 {
+    width: 100%;
     text-align: center;
 }
