@@ -27,7 +27,10 @@ nav{
     display: none;
     position: absolute;
     background-color: rgb(243, 239, 239);
-    z-index: 1;   
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .9em;
+       
 }
   
 .subnav-content a {
