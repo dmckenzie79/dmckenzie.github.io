@@ -27,7 +27,6 @@ nav{
     display: none;
     position: absolute;
     background-color: rgb(243, 239, 239);
-    left: 50%;
     transform: translateX(-50%);
     font-size: .9em;
        
