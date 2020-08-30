@@ -30,6 +30,7 @@ nav{
 }
     
 .subnav-content a {
+float: left;
 color: rgb(92, 2, 2);
 text-decoration: none;
 padding: 10px;
