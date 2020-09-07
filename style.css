@@ -104,9 +104,11 @@ img{
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 25%; 
     font-size: 2em;
+}
 
+.text {
+    top: 20%;
 }
 
 span{
